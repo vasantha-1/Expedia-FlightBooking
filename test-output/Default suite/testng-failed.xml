@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="StepDefinition.bookingClass">
+        <methods>
+          <include name="select_passengers"/>
+          <include name="click_on_apply"/>
+          <include name="click_on_ok_got_it"/>
+          <include name="user_enter_location_into_search_field"/>
+          <include name="click_on_food_continue_button"/>
+          <include name="enter_last_name"/>
+          <include name="click_on_one_way"/>
+          <include name="click_on_travellers_class"/>
+          <include name="click_on_yes_secure_my_trip_radio_button"/>
+          <include name="click_on_to"/>
+          <include name="select_the_from_location"/>
+          <include name="click_on_search"/>
+          <include name="click_on_view_prices"/>
+          <include name="click_on_proceed_to_pay"/>
+          <include name="enter_phone_number"/>
+          <include name="click_on_continue_anyway"/>
+          <include name="browser_is_open"/>
+          <include name="click_on_add_new_adult"/>
+          <include name="click_on_yes_please_button"/>
+          <include name="click_on_continue"/>
+          <include name="select_departure_date"/>
+          <include name="navigate_to_child_window"/>
+          <include name="select_the_to_location"/>
+          <include name="click_on_confirm_button_in_popup"/>
+          <include name="enter_first_name"/>
+          <include name="click_on_from"/>
+          <include name="user_enter_location_in_serch_field"/>
+          <include name="select_gender"/>
+          <include name="click_on_flights"/>
+          <include name="click_on_contiue_button"/>
+          <include name="click_on_first_book_now"/>
+          <include name="enter_email"/>
+        </methods>
+      </class> <!-- StepDefinition.bookingClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

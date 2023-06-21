@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 03 15:25:49 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>133 seconds (133288 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='StepDefinition.bookingClass.enter_first_name()'><b>enter_first_name</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_apply()'><b>click_on_apply</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_yes_please_button()'><b>click_on_yes_please_button</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.select_the_to_location()'><b>select_the_to_location</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_contiue_button()'><b>click_on_contiue_button</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.browser_is_open()'><b>browser_is_open</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>11</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_food_continue_button()'><b>click_on_food_continue_button</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_view_prices()'><b>click_on_view_prices</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>4</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_yes_secure_my_trip_radio_button()'><b>click_on_yes_secure_my_trip_radio_button</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>6</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.enter_last_name()'><b>enter_last_name</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.select_departure_date()'><b>select_departure_date</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.navigate_to_child_window()'><b>navigate_to_child_window</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>6</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_continue()'><b>click_on_continue</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_continue_anyway()'><b>click_on_continue_anyway</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_add_new_adult()'><b>click_on_add_new_adult</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_from()'><b>click_on_from</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.select_passengers()'><b>select_passengers</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.enter_phone_number()'><b>enter_phone_number</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.select_the_from_location()'><b>select_the_from_location</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>1</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_confirm_button_in_popup()'><b>click_on_confirm_button_in_popup</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_flights()'><b>click_on_flights</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>6</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.enter_email()'><b>enter_email</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>6</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_first_book_now()'><b>click_on_first_book_now</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>5</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_search()'><b>click_on_search</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>5</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_proceed_to_pay()'><b>click_on_proceed_to_pay</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>4</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_one_way()'><b>click_on_one_way</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.user_enter_location_in_serch_field()'><b>user_enter_location_in_serch_field</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.user_enter_location_into_search_field()'><b>user_enter_location_into_search_field</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_travellers_class()'><b>click_on_travellers_class</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_to()'><b>click_on_to</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>3</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.click_on_ok_got_it()'><b>click_on_ok_got_it</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>5</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+<tr>
+<td title='StepDefinition.bookingClass.select_gender()'><b>select_gender</b><br>Test class: StepDefinition.bookingClass</td>
+<td></td>
+<td>6</td>
+<td>StepDefinition.bookingClass@15888343</td></tr>
+</table><p>
+</body>
+</html>
